@@ -14,7 +14,7 @@ function newImage(src, positionLeft, positionBottom) {
   newImage('assets/crate.png', '150px', '200px');
   newImage('assets/well.png', '500px', '425px');
 
-  function newItems(src, positionLeft, positionBottom) {
+  function newItem(src, positionLeft, positionBottom) {
     let sword = document.createElement('img')
     sword.src = 'assets/sword.png'
     sword.position = 'fixed'
@@ -26,5 +26,9 @@ function newImage(src, positionLeft, positionBottom) {
         sword.remove()
     })
     
+
+  newItem('assets/sword.png', '500px', '405px');
+  newItem('assets/shield.png', '165px', '185px');
+  newItem('assets/staff.png', '600px', '100px');
 
   }
