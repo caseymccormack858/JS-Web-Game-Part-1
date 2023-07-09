@@ -22,7 +22,7 @@ function newImage(src, positionLeft, positionBottom) {
     sword.bottom = '405px'
     document.body.append(sword)
     
-    sword.addEventListener('click', function(){
+    sword.addEventListener('dblclick', function(){
         sword.remove()
     })
     
